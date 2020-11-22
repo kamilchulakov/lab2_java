@@ -8,7 +8,7 @@ public class Scald extends SpecialMove{
 
     @Override
     protected String describe() {
-        return "deals damage and has a 30% chance of burning the target using Scald";
+        return "наносит урон, используя Scald";
     }
     @Override
     protected void applyOppEffects(Pokemon p){

@@ -10,6 +10,6 @@ public class PlayNice extends StatusMove{
     }
     @Override
     protected String describe() {
-        return "lowers the target's Attack by one stage using Play Nice";
+        return "уменьшает атаку противника на 1 используя Play Nice";
     }
 }

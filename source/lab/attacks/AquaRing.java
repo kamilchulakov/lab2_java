@@ -8,7 +8,7 @@ public class AquaRing extends StatusMove{
 
     @Override
     protected String describe() {
-        return "surrounds itself with a veil of water, which restores 1⁄16 of its maximum HP at the end of each turn using Aqua Ring";
+        return "использует Aqua Ring, окружая себя кольцом воды";
     }
 
     @Override

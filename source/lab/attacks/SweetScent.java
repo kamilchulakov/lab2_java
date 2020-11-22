@@ -8,7 +8,7 @@ public class SweetScent extends StatusMove{
     }
     @Override
     protected String describe() {
-        return "lowers the target's Evasion by one stage using Sweet Scent";
+        return "уменьшает Evasion цели на 1 с помощью Sweet Scent";
     }
 
     @Override

@@ -7,7 +7,7 @@ public class GigaDrain extends SpecialMove {
     }
     @Override
     protected String describe() {
-        return "deals damage and the user will recover 50% of the HP drained using Giga Drain";
+        return "наносит урон и восстанавливает половину здоровья с помощью Giga Drain";
     }
 
     @Override

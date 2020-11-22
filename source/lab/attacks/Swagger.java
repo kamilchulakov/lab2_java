@@ -7,7 +7,7 @@ public class Swagger extends StatusMove{
     }
     @Override
     protected String describe() {
-        return "confuses the target and raises its Attack by two stages using Swagger";
+        return "повышает атаку цели, используя Swagger";
     }
     @Override
     protected void applyOppEffects(Pokemon p){

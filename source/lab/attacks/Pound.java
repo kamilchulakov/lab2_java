@@ -8,6 +8,6 @@ public class Pound extends PhysicalMove{
 
     @Override
     protected String describe() {
-        return "deals damage using Pound";
+        return "наносит урон с помощью Pound";
     }
 }

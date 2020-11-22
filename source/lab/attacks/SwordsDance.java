@@ -7,7 +7,7 @@ public class SwordsDance extends StatusMove{
     }
     @Override
     protected String describe() {
-        return "raises the user's Attack by two stages using Swords Dance";
+        return "решает танцеввть с ножами, увеличивает свою атаку на 2";
     }
     @Override
     protected void applySelfEffects(Pokemon p){
