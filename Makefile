@@ -1,4 +1,4 @@
-.PHONY: compile, clean, prepare, jar
+.PHONY: compile clean prepare jar
 
 clean:
     rm -rf classes releases
