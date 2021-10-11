@@ -3,12 +3,12 @@
 clean:
     rm -rf classes releases
 
-prepare:
+prepare: clean
     mkdir classes
     mkdir releases
     cd source
 
-compile:
+compile: clean prepare
     javac -cp ".:../lib/Pokemon.jar" -d ../classes lab/attacks/*.java
     javac -cp ".:../lib/Pokemon.jar:lab/attacks" -d ../classes lab/pokemons/*.java
     javac -cp ".:../lib/Pokemon.jar" -d ../classes Main.java
